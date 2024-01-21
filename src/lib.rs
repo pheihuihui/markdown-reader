@@ -9,6 +9,6 @@ extern "C" {
 }
 
 #[wasm_bindgen]
-pub fn markdown_to_html_default() -> String {
-    markdown_to_html("ss", &Options::default())
+pub fn markdown_to_html_default(text: &str) -> String {
+    markdown_to_html(text, &Options::default())
 }
