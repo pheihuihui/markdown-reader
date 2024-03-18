@@ -7,13 +7,11 @@
   "files": [
     "markdown_reader_bg.wasm",
     "markdown_reader.js",
-    "markdown_reader_bg.js",
     "markdown_reader.d.ts"
   ],
   "module": "markdown_reader.js",
   "types": "markdown_reader.d.ts",
   "sideEffects": [
-    "./markdown_reader.js",
     "./snippets/*"
   ]
 }
