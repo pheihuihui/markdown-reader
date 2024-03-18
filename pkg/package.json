@@ -1,0 +1,19 @@
+{
+  "name": "markdown-reader",
+  "collaborators": [
+    "Fei <33122873+pheihuihui@users.noreply.github.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "markdown_reader_bg.wasm",
+    "markdown_reader.js",
+    "markdown_reader_bg.js",
+    "markdown_reader.d.ts"
+  ],
+  "module": "markdown_reader.js",
+  "types": "markdown_reader.d.ts",
+  "sideEffects": [
+    "./markdown_reader.js",
+    "./snippets/*"
+  ]
+}
