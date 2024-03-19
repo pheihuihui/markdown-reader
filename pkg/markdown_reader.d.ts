@@ -4,13 +4,13 @@
 * @param {string} input
 * @returns {string}
 */
-export function markdown_to_html_default(input: string): string;
+export function markdown_to_html(input: string): string;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
-  readonly markdown_to_html_default: (a: number, b: number, c: number) => void;
+  readonly markdown_to_html: (a: number, b: number, c: number) => void;
   readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
   readonly __wbindgen_malloc: (a: number, b: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
