@@ -44,7 +44,7 @@ pub fn markdown_to_html(input: &str) -> String {
                 thematic_break: true,
             },
             gfm_strikethrough_single_tilde: false,
-            math_text_single_dollar: true,
+            math_text_single_dollar: false,
             mdx_esm_parse: None,
             mdx_expression_parse: None,
         },
