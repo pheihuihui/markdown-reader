@@ -49,8 +49,8 @@ pub fn markdown_to_html(input: &str) -> String {
             mdx_expression_parse: None,
         },
         compile: CompileOptions {
-            allow_dangerous_html: false,
-            allow_dangerous_protocol: false,
+            allow_dangerous_html: true,
+            allow_dangerous_protocol: true,
             default_line_ending: LineEnding::LineFeed,
             gfm_footnote_label: None,
             gfm_footnote_label_tag_name: None,
